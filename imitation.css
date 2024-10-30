@@ -1,1 +1,13 @@
-/* CSS for your imitation here */
+.cover{
+width:800px;
+height:1200;
+margin: 0 auto;
+background-color: #333;
+background-image: url
+background-size: cover;
+background-postion: center;
+padding:20px;
+border:5px solid #000;
+}
+
+
