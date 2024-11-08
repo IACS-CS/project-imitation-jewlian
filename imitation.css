@@ -112,7 +112,10 @@
   font-size: 12px;
   color: white; 
 }
-
 .barcode img {
-  height: 80px;
-}
+height: 80px; 
+display: block;
+margin: 0 auto;
+background-color: #333; 
+padding: 10px; 
+border-radius: 5px; 
