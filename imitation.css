@@ -9,8 +9,9 @@
   background-position: center;
   padding: 20px;
   border: 5px solid #000;
-  font-family: 'Pacifico', cursive; 
+  font-family: 'Pacifico', cursive;
 }
+
 .title {
   font-size: 80px;
   color: yellow;
@@ -18,53 +19,71 @@
   text-align: center;
   margin-top: 20px;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
-.subtitle-left, .subtitle-right, .subtitle-below {
+
+.subtitle-left,
+.subtitle-right,
+.subtitle-below {
   color: yellow;
-  font-size: 16px;  
+  font-size: 16px;
   line-height: 1.4;
-  width: 45%; 
+  width: 45%;
 }
-.subtitle-left h2, .subtitle-right h2, .subtitle-below h2 {
-  font-size: 20px; 
-  margin: 0; 
+
+.subtitle-left h2,
+.subtitle-right h2,
+.subtitle-below h2 {
+  font-size: 20px;
+  margin: 0;
 }
-.subtitle-left p, .subtitle-right p, .subtitle-below p {
+
+.subtitle-left p,
+.subtitle-right p,
+.subtitle-below p {
   margin-top: 5px;
 }
+
 .subtitle-left {
   text-align: left;
 }
+
 .subtitle-right {
   text-align: right;
 }
+
 .subtitle-below {
-  margin-top: 20px;  
-  width: 45%; 
+  margin-top: 20px;
+  width: 45%;
 }
+
 .main-image {
   display: block;
   width: 100%;
   height: auto;
   margin-top: 50px;
 }
+
 .feature-name {
   text-align: center;
   margin-top: 20px;
 }
+
 .feature-name p {
   font-size: 24px;
   color: yellow;
 }
+
 .feature-name h2 {
   font-size: 60px;
   color: white;
 }
+
 .bottom-section {
   position: absolute;
   bottom: 20px;
@@ -73,16 +92,27 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.highlight-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
 .highlight {
   font-size: 18px;
   color: yellow;
   background-color: black;
   padding: 10px;
 }
-.social-media, .website {
-  font-size: 14px;
-  color: white;
+
+.social-media,
+.website {
+  font-size: 12px;
+  color: white; /* Makes the text white */
 }
+
 .barcode img {
   height: 80px;
 }
