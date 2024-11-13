@@ -1,3 +1,4 @@
+/* General styles for the cover */
 .cover {
   position: relative;
   width: 800px;
@@ -84,39 +85,67 @@
   color: white;
 }
 
+/* Bottom section styles */
 .bottom-section {
   position: absolute;
-  bottom: 20px;
+  bottom: 0; /* Keep the bottom section at the bottom edge of the cover */
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* Align items vertically to the center */
+  padding: 20px;
+  flex-wrap: wrap; /* Allow wrapping if the space is tight */
+  box-sizing: border-box;
 }
 
-.highlight-group {
+/* Left section for "How to fix the economy" and @reallygreatsite */
+.highlight-group-left {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   align-items: flex-start;
-  gap: 5px;
 }
 
-.highlight {
+.how-to-fix {
   font-size: 18px;
   color: yellow;
   background-color: black;
   padding: 10px;
 }
 
-.social-media,
-.website {
-  font-size: 12px;
-  color: white; 
+.social-media {
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
+
+/* Center section for www.reallygreatsite.com */
+.highlight-group-center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.website {
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+/* Barcode stays at bottom-right */
+.barcode {
+  margin-left: 20px;
+}
+
 .barcode img {
-height: 80px; 
-display: block;
-margin: 0 auto;
-background-color: #333; 
-padding: 10px; 
-border-radius: 5px; 
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
 }
