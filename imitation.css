@@ -200,7 +200,7 @@
 }
 
 @media (max-width: 480px) {
-  /* Adjust layout for phones */
+ 
   .cover {
     padding: 10px;
   }
