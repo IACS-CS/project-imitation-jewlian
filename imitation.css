@@ -1,4 +1,3 @@
-/* General styles for the cover */
 .cover {
   position: relative;
   width: 800px;
@@ -85,20 +84,19 @@
   color: white;
 }
 
-/* Bottom section styles */
 .bottom-section {
   position: absolute;
-  bottom: 0; /* Keep the bottom section at the bottom edge of the cover */
+  bottom: 0; 
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Align items vertically to the center */
+  align-items: center; 
   padding: 20px;
-  flex-wrap: wrap; /* Allow wrapping if the space is tight */
+  flex-wrap: wrap; 
   box-sizing: border-box;
 }
 
-/* Left section for "How to fix the economy" and @reallygreatsite */
+
 .highlight-group-left {
   display: flex;
   flex-direction: column;
@@ -120,7 +118,7 @@
   padding: 10px;
 }
 
-/* Center section for www.reallygreatsite.com */
+
 .highlight-group-center {
   display: flex;
   flex-direction: column;
@@ -136,7 +134,7 @@
   padding: 10px;
 }
 
-/* Barcode stays at bottom-right */
+
 .barcode {
   margin-left: 20px;
 }
